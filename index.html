@@ -3,84 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <title>LisitsinaLisa</title>
+<link href="styles.css" rel="stylesheet" />
 </head>
 <body>
-    <table cellspacing="15">
-        <tr>
-            <td>
-          <img src="Аватар.jpg" width="200" alt="фото" />
-            </td>
-            <td>
-            <h1>Аленушка краса, длинная коса!</h1>
-            <p><em>Вымышленный персонаж, мастер боевых искусств, порадитель <strong>Кунг-фу</strong></em></p>
-            <p>Нахожу необычные места и людей, делаю из низ биороботов.</p>
-            </td>
-        </tr>
-    </table>
+    <div class="container">
+
+        <div class="info">
+         <img src="Аватар.jpg" alt="фото" class="Аватар" />
+        <h1>Аленушка краса, длинная коса!</h1>
+        <p>Вымышленный персонаж, мастер боевых искусств, порадитель <strong>Кунг-фу</strong></p>
+        <p>Нахожу необычные места и людей, делаю из них биороботов</p>
+
+        <h4>Социальные сети</h4>
+    <a href="https://t.me/LisitsaLife"target="_blank">LisitsaLife</a>
     
-<hr>
 
-<h2>Социальные сети</h2>
-<ul><li><a href="https://t.me/LisitsaLife"target="_blank">LisitsaLife</a></li>
-</ul>
+        </div>
+     <div class="card bg-yellow">
+     <h2>Увлечения</h2>
+     <ol class="list">
+         <li>Путешествия</li>
+         <li>Зельеварение</li>
+         <li>Алхимия</li>
+     </ol>
+    </div>
+    
+    <div class="card bg-green">
+    <h2>Опыт работы</h2>
+    
+    <table class="table"> 
+    
+        
+        <tr>
+            <td>Лесная избушка</td>
+            <td>Ведьма</td>
+            <td>500 лет до н.э</td>
+        </tr>
+        <tr>
+            <td>Речной дом</td>
+            <td>Заплутательница</td>
+            <td>250 лет до н.э</td>
+        </tr>
+       
+    </table>
+</div>
+    
+    <div class="card bg-red">
+    <h2>Youtube</h2>
+    <ul>
+        <li><a href="https://www.youtube.com/watch?v=l0SZYDZScNg">Урок зельеварения</a></li>
+        <li>
+            <a href="https://www.youtube.com/watch?v=fUOqRGFKRxc">Урок музыки</a>
+        </li>
+    </ul>
+</div>
 
-<hr>
+<div class="contact">
+    
+    <h2>Связаться со мной</h2>
 
-<h2>Увлечения</h2>
-<ol>
-<li>Путешествия</li>
-<li>Зельеварение</li>
-<li>Алхимия</li>
-</ol>
+    <form action="\">
+        <div class="form-group">
+        <label for="name">Ваше имя:</label>
+        <input type="text" id="name">
+    </div>
+    <div class="form-group">
 
-<hr>
-<h2>Опыт работы</h2>
+        <label for="почта">Ваша почта:</label>
+        <input type="Почта" id="почта">
+    </div>
+    </form>
+    <div class="form-group">
+    <input type="submit">
+</div>
+<div class="form-group">
+    
+    <label for="text">Ваше сообщение:</label>
+    
+    <textarea name="" id="text" cols="30" rows="10"></textarea>
+</div>
 
-<table> 
-
-    <tr>
-        <th>Компания</th>
-        <th>Должность</th>
-        <th>Год</th>
-    </tr>
-    <tr>
-        <td>Лесная избушка</td>
-        <td>Ведьма</td>
-        <td>500 лет до н.э</td>
-    </tr>
-    <tr>
-        <td>Речной дом</td>
-        <td>Заплутательница</td>
-        <td>250 лет до н.э</td>
-    </tr>
-   
-</table>
-
-<hr>
-
-
-<h2>Youtube</h2>
-<a href="Youtube.html">Магия</a>
-
-<hr>
-<h2>Связаться со мной</h2>
-<form action="\">
-    <label for="name">Ваше имя:</label>
-    <input type="text" id="name">
-
-    <br>
-
-    <label for="почта">Ваша почта:</label>
-    <input type="Почта" id="почта">
 </form>
-<br>
-<input type="submit">
-
-<br>
-<label for="text">Ваше сообщение:</label>
-<br>
-<textarea name="" id="text" cols="30" rows="10"></textarea>
-
+</div>
+    
+    </div>
 </body>
 
 </html>
